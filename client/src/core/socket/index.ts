@@ -7,6 +7,6 @@ const options: Partial<ManagerOptions & SocketOptions> = {
   transports: ['websocket'],
 };
 
-const socket = io('http://localhost:3000', options);
+const socket = io('http://localhost:5000', options);
 
 export default socket;
